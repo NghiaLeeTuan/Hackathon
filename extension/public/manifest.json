@@ -1,0 +1,16 @@
+{
+  "name": "HACKATHON",
+  "description": "An implementation of HACKATHON",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "videoCapture"
+  ],
+  "action": {
+  },
+  "background": {
+    "service_worker": "index.js"
+  }
+}
